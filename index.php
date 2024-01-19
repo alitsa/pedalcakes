@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Title of the document</title>
+<title>Dear Yard Pew</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
       </p>
 
 <figure>
-<img src="https://i.giphy.com/3oEjHFHaBKjH2lojSg.webp" alt="" />
+  <img src="https://i.giphy.com/3oEjHFHaBKjH2lojSg.webp" alt="" />
 </figure>
 
     </div>
