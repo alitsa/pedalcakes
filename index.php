@@ -13,6 +13,16 @@
 
 <body>
 
+<<<<<<< HEAD
+=======
+<article>
+  <div class="flex">
+    <div>
+      <h1>Pedal Cakes</h1>
+      <p>
+        Meow meow meow meow meow meow meow meow meow meow meow OMGVSCODE
+      </p>
+>>>>>>> 952facce266b38f15a93c045b6cf5efbd2f6b976
 
 
 <section role="header" class="heading">
