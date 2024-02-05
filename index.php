@@ -18,7 +18,7 @@
     <div>
       <h1>Pedal Cakes</h1>
       <p>
-        Meow meow meow meow meow meow meow meow meow meow meow PEW
+        Meow meow meow meow meow meow meow meow meow meow meow OMGVSCODE
       </p>
 
 <figure>
