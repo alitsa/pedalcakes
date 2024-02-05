@@ -1,17 +1,29 @@
-body {
-  background-color: #00239D;
-  background-image: linear-gradient(#6000FD, #00239D);
-  font-family: "Rubik Mono One", monospace;
-  color: #6000FD;
+html, body {margin: 0; padding: 0;}
+body {font-family: "google sans", sans-serif; background: #1e1e1e url("cake.png") repeat; font-weight: 300; color: #EAE6AB;}
+img {max-width: 100%;}
+p, li {line-height: 160%;}
+h1, h2, h3, h4, nav {font-family: "gluten", sans-serif;}
+
+.heading {display: flex; justify-content: space-between; margin-bottom: 1em; padding: 1em 1em 2em; background: #D6DB4B url("cake-border.png") repeat-x bottom;}
+header {display: flex; align-items: center; color: black;}
+.logo {font-size: 4em; margin-right: 16pt; max-width: 80pt;}
+.tagline {display: block; font-size: 1.2rem; font-style: italic; font-weight: 400;}
+h1 {font-size: 4em; margin: 0; padding: 0; text-shadow: 0 0  1pt white;}
+.tagline {margin: 0; padding: 0;}
+nav ul {list-style-type: none; margin: 0; padding: 0;}
+nav li a {display: block; padding: .25em 1em; text-decoration: none; color: black; }
+nav li a:hover {color: #C800E9; transition: color 0.5s ease;}
+.panel {background: #1e1e1e url("cake-border-trans.png") repeat-x bottom; padding-bottom: 4em;}
+
+stripe-buy-button {}
+
+article {margin: 1em; padding: 1em;}
+
+@media (min-width: 50em) {
+  .flex {display: flex;}
+  .panel {padding: 0; background: none;}
+  .panel.primary {flex-basis: 60%;}
+  .panel.secondary {flex-basis: 40%;}
 }
-article {height: 100vh; text-align: center;}
-.flex {display: flex; justify-content: center; align-items: center; height: 100%;}
-h1 {
-  font-size: 10vw;
-  margin: 0;
-  background: -webkit-linear-gradient(#F800FD, #6000FD);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-img {width: 10em; max-width: 100%;}
-figure {text-align: center; margin: 2em;}
+
+
