@@ -22,6 +22,7 @@
       </h1>  
     
   </header>
+  <!-- hidden for now
   <nav>
     <ul>
       <li><a  href="#product">Product</a></li>
@@ -29,6 +30,7 @@
       <li><a  href="#about">About</a></li>
     </ul>
   </nav>
+  -->
 </section>
 
 <section role="main">
