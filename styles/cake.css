@@ -4,7 +4,7 @@ img {max-width: 100%;}
 p, li {line-height: 160%;}
 h1, h2, h3, h4, nav {font-family: "gluten", sans-serif;}
 
-.heading {display: flex; justify-content: space-between; margin-bottom: 1em; padding: 1em 1em 2em; background: #D6DB4B url("cake-border.png") repeat-x bottom;}
+.heading {display: flex; justify-content: space-between; margin-bottom: 1em; padding: 1em 1em 3em; background: #D6DB4B url("cake-border.png") repeat-x bottom;}
 header {display: flex; align-items: center; color: black;}
 .logo {font-size: 4em; margin-right: 16pt; max-width: 80pt;}
 .tagline {display: block; font-size: 1.2rem; font-style: italic; font-weight: 400;}
@@ -13,15 +13,14 @@ h1 {font-size: 4em; margin: 0; padding: 0; text-shadow: 0 0  1pt white;}
 nav ul {list-style-type: none; margin: 0; padding: 0;}
 nav li a {display: block; padding: .25em 1em; text-decoration: none; color: black; }
 nav li a:hover {color: #C800E9; transition: color 0.5s ease;}
-.panel {background: #1e1e1e url("cake-border-trans.png") repeat-x bottom; padding-bottom: 4em;}
+.panel {background: #1e1e1e url("cake-border-trans.png") repeat-x bottom; padding: 1em 1em 4em 1em;}
+figure {margin: auto 0; padding: 0;}
 
 stripe-buy-button {}
 
-article {margin: 1em; padding: 1em;}
-
 @media (min-width: 50em) {
   .flex {display: flex;}
-  .panel {padding: 0; background: none;}
+  .panel {padding: 2em; background: none;}
   .panel.primary {flex-basis: 60%;}
   .panel.secondary {flex-basis: 40%;}
 }
